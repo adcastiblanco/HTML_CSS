@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.features {
+    padding: 100px 70px;
+    display: flex;
+    justify-content: space-evenly
+}
+[class^="features-"] {
+    margin: 0px 10px;
+    width: 170px;
+}
+.features p {
+    font-size: 12px;
+}
+.features-title {
+    font-size:17px;
+    margin: 0;
+    color:#313337;
+}
+.img-container {
+    margin: 0;
+    height: 140px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    /* margin: 0; */
+    object-fit: cover;
+}
+hr {
+    height: 1px;
+    border: 0;
+    background: rgba(0, 0, 0, .2);
+}
+.mentions-list {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.mention-1 {
+    width: 20%;
+    box-shadow: gray 0px 3px 6px;
+    margin: 0px 8px;
+}
+.mention-1 h3 {
+    color: #313337;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.mention-1 p {
+    color: #313337;
+    margin: 2px 10px 10px 10px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 80px 80px 40px 80px;
+    color: #313337;
+}
+
+.description {
+    margin-top: -40px;
+    background: white;
+    position: relative;
+}
+footer {
+    display: flex;
+    color: white;
+    background: #313337;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
